@@ -1,13 +1,14 @@
 import logo from '../assets/arvian_logo_exact.png';
-const Navbar = () => {
+import "./Navbar.css";
+function Navbar() {
   return (
     <div>
-    <nav className="Navbar">
-            <img src={logo} alt="Logo" className ="logo" />
+      <nav className="Navbar">
+        <img src={logo} alt="Logo" className="logo" />
 
-        </nav>
+      </nav>
     </div>
-  )
+  );
 }
 
 export default Navbar

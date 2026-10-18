@@ -1,0 +1,43 @@
+.Footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 92px;
+    transform :translateX(-50%);
+    left: 50%;
+    
+    background: #0d172d;
+    border-top: 1px solid #263452;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    z-index: 100;
+}
+
+.Footer-item {
+    flex: 1;
+    text-align: center;
+    color: #8d9bb5;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.Footer-item span {
+    display: block;
+    font-size: 28px;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.Footer-item p {
+    color: #8d9bb5;
+    font-size: 14px;
+    
+}
+
+.Footer-item.active span,
+.Footer-item.active p {
+    color: #8fb4e8;
+}
