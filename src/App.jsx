@@ -82,10 +82,7 @@ function App() {
       
       {selectedPage === 'Programs' && (
         <div className="page">
-          <h1>Programs</h1>
-          <p>
-            Find the best study programs for your future in Canada.
-          </p>
+          <Programs />
         </div>
       )}
 
