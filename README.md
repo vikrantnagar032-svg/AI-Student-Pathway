@@ -1,4 +1,4 @@
-# Arvian AI: Study & PR Pathway Platform
+# AI Student Pathway Platform
 
 A full-stack web app that helps international students plan a study-and-immigration pathway to Canada. Enter your academic, language, financial and skills profile and get a weighted readiness score, AI-recommended career tracks, matched programs, an application checklist and a profile-aware AI advisor chat.
 
